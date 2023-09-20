@@ -1,19 +1,19 @@
-import React from "react";
-import { registerAsWebComponent } from "react-webcomponentify";
+import React from 'react'
+import Button from '@mui/material/Button'
+import Stack from '@mui/material/Stack'
+import { registerAsWebComponent } from 'react-webcomponentify'
 
-export const Button = props => {
+export const MyButton = (props) => {
   return (
-    <button
-      style="height:40px;font-weight:bold;"
-      id={props.id}
-      onClick={props.onClick}
-    >
-      {props.text || "Hello"}
-    </button>
-  );
-};
+    <Stack direction='row' spacing={2}>
+      <Button>Primary</Button>
+      <Button disabled>Disabled</Button>
+      <Button href='#text-buttons'>Link</Button>
+    </Stack>
+  )
+}
 
-registerAsWebComponent(Button, "my-button");
+registerAsWebComponent(MyButton, 'my-button')
 
 /*
  In html: 

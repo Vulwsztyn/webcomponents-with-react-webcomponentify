@@ -31,6 +31,12 @@ module.exports = {
         use: {
           loader: "babel-loader"
         }
+      },
+      {
+        test: /dnd\.esm\.js$/,
+        use: {
+          loader: "esbuild-loader"
+        }
       }
     ]
   }

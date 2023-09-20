@@ -11,17 +11,12 @@
     <section class="header-section">
       <h2 class="title">
         Component library based on web-components built using React and
-        <a
-          href="https://github.com/a7ul/react-webcomponentify"
-          target="_blank"
-          >react-webcomponentify</a
-        >.
+        <a href="https://github.com/a7ul/react-webcomponentify" target="_blank">react-webcomponentify</a>.
       </h2>
       <img class="logo-img" src="./react-webcomponent.png" alt="logo" />
       <p>
-        Tip: You can inspect the custom elements using chrome devtools. Source
-        maps are enabled hence you can even see source code of these components
-        in action
+        Tip: You can inspect the custom elements using chrome devtools. Source maps are enabled hence you can even see
+        source code of these components in action
       </p>
     </section>
 
@@ -29,9 +24,7 @@
       <h2>List of components</h2>
       <div class="ex-container">
         <h3>1. component with react state: my-input</h3>
-        <p class="ex-description">
-          Custom element input field: Contains react state. Start typing to see:
-        </p>
+        <p class="ex-description">Custom element input field: Contains react state. Start typing to see:</p>
         <div class="ex-comp-container">
           <h4>Live demo:</h4>
           <!-- Custom element my-input here -->
@@ -47,8 +40,8 @@
       <div class="ex-container">
         <h3>2. props passed via html attributes: my-button</h3>
         <p class="ex-description">
-          Custom element button element that accepts props via html attributes.
-          Check console log on click. Also, Try editing the attribute text with chrome inspector.
+          Custom element button element that accepts props via html attributes. Check console log on click. Also, Try
+          editing the attribute text with chrome inspector.
         </p>
         <div class="ex-comp-container">
           <h4>Live demo:</h4>
@@ -60,26 +53,23 @@
         <div class="ex-code-container">
           <script src="https://gist.github.com/a7ul/7a01ebcb68764671181077dcd0b56be9.js"></script>
           <script type="text/javascript">
-            window.onload = function() {
-              var myBtn = document.getElementById("my-custom-btn");
+            window.onload = function () {
+              var myBtn = document.getElementById('my-custom-btn')
               myBtn.setProps({
-                onClick: function() {
-                  console.log("my-button was clicked");
-                }
-              });
-            };
+                onClick: function () {
+                  console.log('my-button was clicked')
+                },
+              })
+            }
           </script>
         </div>
       </div>
       <div class="ex-container">
         <h3>3. child html elements passed to react: my-complex-component</h3>
         <p class="ex-description">
-          child html elements can be passed to a custom element made with react.
-          In this case those can be accessed via
-          <code>this.props.children</code> as you would in a regular react app.
-          Only caveat is that, since these child html elements are dom nodes we
-          wrap them in a wrapper react component so that react can understand
-          it.
+          child html elements can be passed to a custom element made with react. In this case those can be accessed via
+          <code>this.props.children</code> as you would in a regular react app. Only caveat is that, since these child
+          html elements are dom nodes we wrap them in a wrapper react component so that react can understand it.
         </p>
         <div class="ex-comp-container">
           <h4>Live demo:</h4>

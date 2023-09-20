@@ -22,7 +22,17 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
+    "@babel/helper-builder-react-jsx": "^7.22.10",
+    "@elastic/datemath": "^5.0.3",
+    "@elastic/eui": "^88.4.0",
+    "@emotion/css": "^11.11.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.10",
+    "esbuild-loader": "^4.0.2",
+    "moment": "^2.29.4",
     "preact": "^10.17.1",
+    "prop-types": "^15.8.1",
     "react-webcomponentify": "^1.2.1",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
