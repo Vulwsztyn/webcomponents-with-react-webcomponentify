@@ -64,7 +64,7 @@ export const Input = () => {
   )
 }
 
-registerAsWebComponent(Input, 'my-input')
+registerAsWebComponent(Input, 'my-input', 'element')
 
 /*
  In html: 

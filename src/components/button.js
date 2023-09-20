@@ -13,7 +13,7 @@ export const MyButton = (props) => {
   )
 }
 
-registerAsWebComponent(MyButton, 'my-button')
+registerAsWebComponent(MyButton, 'my-button', 'element')
 
 /*
  In html: 
