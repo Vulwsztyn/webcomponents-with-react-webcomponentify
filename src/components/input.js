@@ -42,7 +42,7 @@ export const Input = () => {
                 color={value !== 'disabled' ? value : 'primary'}
                 onClick={() => {}}
               >
-                Small
+                Small2
               </EuiButtonEmpty>
             </EuiFlexItem>
 

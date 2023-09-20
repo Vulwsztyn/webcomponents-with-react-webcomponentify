@@ -31,8 +31,9 @@
     "@mui/material": "^5.14.10",
     "esbuild-loader": "^4.0.2",
     "moment": "^2.29.4",
-    "preact": "^10.17.1",
     "prop-types": "^15.8.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-webcomponentify": "^1.2.1",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
